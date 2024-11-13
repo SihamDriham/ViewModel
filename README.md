@@ -26,7 +26,7 @@ Ce projet compare deux implémentations Android pour une application qui utilise
 ### 2. Application Avec ViewModel
 - *Données gérées dans un ViewModel*.
 - *LiveData* utilisé pour observer et réagir aux changements d'état.
-- *SavedStateHandle* utilisé pour restaurer l'état après la destruction de l'activité.
+- *SavedStateHandle* utilisé pour restaurer l'état après la destruction du ViewModel.
 - Avantages :
   - Gestion efficace du cycle de vie.
   - Meilleure séparation des responsabilités (Architecture MVVM).
@@ -43,4 +43,6 @@ Ce projet compare deux implémentations Android pour une application qui utilise
   - SavedStateHandle
 - *IDE* : Android Studio.
 
-https://github.com/user-attachments/assets/db0e336a-bb7d-4927-af19-c2b60db5d64b
+https://github.com/user-attachments/assets/91b1bda9-e667-41a8-b7d1-b1d313a595f8
+
+https://github.com/user-attachments/assets/125901ac-e8f4-479e-ad09-68a0e71dd178

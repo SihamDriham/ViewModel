@@ -1,12 +1,12 @@
 # Application de compteur (Incrémentation / Décrémentation)
 Cette application mobile Android est une simple application de compteur permettant d'incrémenter et de décrémenter une valeur. Elle est conçue pour illustrer l'utilisation de ViewModel, LiveData, et SavedStateHandle dans une application Android.
 # Fonctionnalités
--Incrémentation d'un compteur en appuyant sur un bouton.
--Décrémentation du compteur en appuyant sur un autre bouton.
--Sauvegarde de l'état du compteur, même après une rotation de l'écran ou la fermeture de l'application.
+1. Incrémentation d'un compteur en appuyant sur un bouton.
+2. Décrémentation du compteur en appuyant sur un autre bouton.
+3. Sauvegarde de l'état du compteur, même après une rotation de l'écran ou la fermeture de l'application.
 # Structure du projet
-Package view: contient les composants de l'interface utilisateur (MainActivity).
-Package viewmodel: contient la logique de gestion des données de l'application (CounterViewModel).
+1. Package view: contient les composants de l'interface utilisateur (MainActivity).
+2. Package viewmodel: contient la logique de gestion des données de l'application (CounterViewModel).
 # Concepts clés
 1. ViewModel: Dans cette application, le ViewModel est utilisé pour stocker la valeur actuelle du compteur. Ainsi, cette valeur est préservée même si l'écran est tourné.
 2. LiveData: Dans l'application de compteur, la valeur du compteur est stockée dans une LiveData, permettant ainsi à l'interface utilisateur de se mettre à jour automatiquement à chaque changement.
